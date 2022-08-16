@@ -1,0 +1,46 @@
+#Exercise 1
+Symbols:
+==========================
+()
+""
+''
+Functions:
+===============
+print()
+
+#Exercise 2
+Symbols:
+===============
+#
+
+Exercise 3
+Symbols:
+===============
++
+-
+/
+*
+%
+<
+>
+>=
+<=
+
+Exercise 4
+Symbols:
+===============
+=
+_
+.
+,
+
+#Exercise 5
+Symbols:
+================
+f"" --> F-Strings formatting method, used to format a string of text by allowing for variable expansion
+{} --> Curly braces, symbol used for various things but most common is being a placeholder for variables
+
+#Exercise 6
+Symbols:
+=================
+format() --> Prior way to format a string before f-strings.
