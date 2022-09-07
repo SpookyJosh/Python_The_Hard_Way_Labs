@@ -1,0 +1,34 @@
+#Exercise 1
+Functions:
+==============
+print --> Function to print a string value onto the terminal
+
+Symbols:
+==============
+() --> Symbol used with many functions and methods to enclose a value
+"" --> Symbol used to enclose a string value
+'' --> Symbol used to enclose a string value
+
+#Exercise 2
+Symbols:
+==============
+# --> Symbol used to comment something out
+
+#Exercise 3
+symbols:
+==============
++ --> Arithmetic Operator for plus
+- --> Arithmetic Operator for minus
+/ --> Arithmetic operator for division
+* --> Arithmetic Operator for multiplication
+% --> Modulus Operator
+< --> Arithmetic operator for less than
+> --> Arithmetic Operator for greater than
+<= --> Arithmetic operator for less than or equal to
+>= --> Arithmetic operator for greater than or equal to
+, --> Operator used to separate items
+
+#Exercise 4
+symbols:
+==============
+= --> Variable assignment operator
