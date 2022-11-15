@@ -35,4 +35,22 @@ print("Florida has: ", cities[states['Florida']])
 
 # print every state abbreviation
 print('-' * 10)
-for state, abbrev in list(states.items())
+for state, abbrev in list(states.items()):
+    print(f"{state} is abbreviated {abbrev}")
+
+#print every city in states
+print('-' * 10)
+for abbrev, city in list(cities.items()):
+    print(f"{city} is abbreviated {abbrev}")
+    print(f"and has city {cities[abbrev]}")
+
+print('-' * 10)
+#safely get a abbreviation by state that might not be There
+state = states.get('Texas')
+
+if not state:
+    print("Sorry, not Texas")
+
+#get a city with a default value
+city = cities.get('TX', 'Does Not Exist')
+print(f"The city for state 'TX' is: {city}")
