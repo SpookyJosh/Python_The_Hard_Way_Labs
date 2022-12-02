@@ -50,14 +50,25 @@ def convert(snippet, phrase):
 #Iterate through the results of the sample() function, storing each iteration as variable w
 #Run the capitalize() method against variable w, each iteration will then be stored in class_names as a list
     class_names = [w.capitalize() for w in random.sample(WORDS, snippet.count("%%%"))]
-
+#Create variable other_names
+#Create an integer value indicating the number of occurrences of the string "***" in the variable 'snippet'
+#Using the sample() function, supply list 'WORDS' with the integer from above indicating the number of random items to obtain from WORDS
+#Store the resulting values in other_names
     other_names = random.sample(WORDS, snippet.count("***"))
+#create empty list and store it in 'results'
     results = []
+#Create empty list and store it in 'param_names'
     param_names = []
-
+#iterate using the range() function
+#the starting value is 0, and the end value is an integer result using the count() method on snippet indicating the number of times the string "@@@" exists
     for i in range(0, snippet.count("@@@")):
+#create variable param_count and assign a random integer ranging from 1 to 3
         param_count = random.randint(1,3)
+#Run the append() method against the variable param_names
+#Appends a comma and a space, followed by joining a random number of values from the WORDS variable
         param_names.append(', '.join(random.sample(WORDS, param_count)))
+#Iterates through the snippet and phrase lists and stores each iteration in variable sentence
+#For each iteration, stores 
     for sentence in snippet, phrase:
         result = sentence[:]
 
